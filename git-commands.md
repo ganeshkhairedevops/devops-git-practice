@@ -56,6 +56,6 @@ Example:
 git log --oneline
 
 ### git diff
-Shows changes between commits or unstaged changes  
+Shows changes between commits  
 Example:
 git diff
