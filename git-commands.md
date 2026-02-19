@@ -142,3 +142,7 @@ git switch -c feature-2
 Deletes a branch  
 Example:
 git branch -d feature-2
+
+---
+## Advanced Git
+
