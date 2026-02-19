@@ -150,6 +150,10 @@ git switch main
 git switch -c feature-login
 
 
+<<<<<<< HEAD
 add from feat-seeting  ## etc
 ## 2 time from feature-signin
 ## add from main before rebase
+=======
+
+>>>>>>> ab6d2f4 (2st commit)
