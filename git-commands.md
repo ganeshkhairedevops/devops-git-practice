@@ -145,4 +145,7 @@ git branch -d feature-2
 
 ---
 ## Advanced Git
+Create branch from main
+git switch main
+git switch -c feature-login
 
