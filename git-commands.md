@@ -114,3 +114,31 @@ Push again:
 git push -u origin master
 ```
 ---
+
+## 🔹 Branching
+
+### git branch
+Lists all branches  
+Example:
+git branch
+
+### git branch <name>
+Creates a new branch  
+Example:
+git branch feature-1
+
+### git switch <branch>
+Switches branches  
+Example:
+git switch main
+git checkout branchname
+
+### git switch -c <name>
+Creates and switches to a branch  
+Example:
+git switch -c feature-2
+
+### git branch -d <branch>
+Deletes a branch  
+Example:
+git branch -d feature-2
