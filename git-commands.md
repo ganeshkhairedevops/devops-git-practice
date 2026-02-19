@@ -150,6 +150,6 @@ git switch main
 git switch -c feature-login
 
 
-## etc
+add from feat-seeting  ## etc
 ## 2 time from feature-signin
 ## add from main before rebase
