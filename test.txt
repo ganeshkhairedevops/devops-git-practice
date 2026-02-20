@@ -4,4 +4,3 @@ commit b
 commit x
 commit y
 commit z
-
