@@ -229,6 +229,7 @@ Incoming branch changes
 Resolve manually, then:
 
 git add <file>
+
 git commit
 
 ---
