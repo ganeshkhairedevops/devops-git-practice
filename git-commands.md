@@ -149,11 +149,124 @@ Create branch from main
 git switch main
 git switch -c feature-login
 
+---
+
+## 🔹 Remote Repository
+
+### git remote -v
+Shows connected remotes  
+Example:
+git remote -v
+
+### git remote add origin <url>
+Adds remote repository  
+Example:
+git remote add origin https://github.com/ganeshkhairedevops/devops-git-practice.git
+
+### git push -u origin <branch>
+Pushes branch and sets upstream  
+Example:
+git push -u origin main
+
+### git fetch
+Downloads changes without merging  
+Example:
+git fetch origin
+
+### git pull
+Fetch + merge  
+Example:
+git pull origin main
+
+---
+## 🔀 Merge
+
+### git merge
+Merges another branch into current branch  
+Example:
+git merge feature-login
+
+### git merge --squash
+Squashes all commits into one before merging  
+Example:
+git merge --squash feature-profile
+git commit -m "Add profile feature (squashed)"
+
+---
+## 🔄 Rebase
+
+### git rebase
+Reapplies commits on top of another branch  
+Example:
+git rebase main
+
+### git rebase --continue
+Continues rebase after resolving conflicts  
+Example:
+git rebase --continue
+
+### git rebase --abort
+Cancels rebase and restores state  
+Example:
+git rebase --abort
+
+### git rebase --skip
+Skips problematic commit during rebase  
+Example:
+git rebase --skip
+
+---
+## 🧨 Conflict Handling
+
+During a conflict, Git shows:
 
 <<<<<<< HEAD
-add from feat-seeting  ## etc
-## 2 time from feature-signin
-## add from main before rebase
+Your current branch changes
 =======
+Incoming branch changes
+>>>>>>> branch-name
 
->>>>>>> ab6d2f4 (2st commit)
+Resolve manually, then:
+
+git add <file>
+git commit
+
+---
+## 👜 Stash
+
+### git stash
+Temporarily saves uncommitted changes  
+Example:
+git stash
+
+### git stash push -m
+Stash with message  
+Example:
+git stash push -m "WIP dashboard UI"
+
+### git stash list
+Lists stashes  
+Example:
+git stash list
+
+### git stash pop
+Applies and removes latest stash  
+Example:
+git stash pop
+
+### git stash apply
+Applies stash but keeps it saved  
+Example:
+git stash apply stash@{0}
+
+---
+## 🍒 Cherry Pick
+
+### git cherry-pick
+Applies specific commit to current branch  
+Example:
+git cherry-pick 1a2b3c4
+
+---
+
+🔥 This document is continuously updated as part of DevOps 90-Day Learning.
