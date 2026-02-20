@@ -297,4 +297,46 @@ Shows all HEAD movements (recovery tool)
 Example:
 git reflog
 
+---
+
+## 🔹 GitHub CLI (gh)
+
+### gh auth login
+Authenticate GitHub CLI
+
+### gh auth status
+Check login status
+
+### gh repo create
+Create repository
+
+### gh repo clone
+Clone repository
+
+### gh repo list
+List repositories
+
+### gh issue create
+Create issue
+
+### gh issue list
+List issues
+
+### gh pr create
+Create pull request
+
+### gh pr merge
+Merge pull request
+
+### gh run list
+List GitHub Actions runs
+
+### gh workflow list
+List workflows
+
+### gh alias set
+Create command shortcut
+
+
+
 🔥 This document is continuously updated as part of DevOps 90-Day Learning.
